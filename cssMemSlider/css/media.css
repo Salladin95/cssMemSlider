@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+  .main {
+    width: 80vw;
+    height: 90vh;
+    padding: 0.625rem 2.5rem;
+  }
+
+  .container {
+    width: 19rem;
+    height: 55vh;
+  }
+
+  .slide__img {
+    width: 18.75rem;
+    height: 25rem;
+  }
+}

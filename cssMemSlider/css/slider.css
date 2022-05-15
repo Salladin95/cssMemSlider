@@ -5,21 +5,27 @@
 }
 
 .slides {
-  opacity: 0;
+  max-width: 37.5rem;
   min-width: 100%;
+  opacity: 0;
 	transition: 1.5s;
 }
 
+.slide__img {
+  width: 31.25rem;
+  height: 50vh;
+}
+
 .slide1 {
-  transform: translate(160%);
+  transform: translate(150%);
 }
 
 .slide2 {
-  transform: translate(55%);
+  transform: translate(50%);
 }
 
 .slide3 {
-  transform: translate(-45%);
+  transform: translate(-50%);
 }
 
 .slide4 {
