@@ -6,17 +6,22 @@
   justify-content: center;
 
   background: rgb(255, 255, 255);
-  padding: 0.625rem 2.5rem;
+  /*padding: var(--ten) var(--fourty);*/
   margin: 0 auto;
 }
 
 .container {
-  max-width: 31.25rem;
+  max-width: var(--fiveHundred);
   height: 60vh;
   width: 100%;
-  padding: 0.625rem 2.5rem;
+  /*padding: var(--ten) var(--fourty);*/
 
-  border: 0.625rem solid rgb(0, 0, 0);
+  border: var(--ten) solid rgb(0, 0, 0);
   background: rgb(0, 0, 0);
   overflow: hidden;
+}
+
+.sighn {
+  color: antiquewhite;
+  margin-top: var(--ten);
 }

@@ -2,17 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: var(--thirty);
 }
 
 .slides {
-  max-width: 37.5rem;
+  max-width: var(--sixHundred);
   min-width: 100%;
   opacity: 0;
-	transition: 1.5s;
+	transition: 2s;
 }
 
 .slide__img {
-  width: 31.25rem;
+  width: var(--fiveHundred);
   height: 50vh;
 }
 

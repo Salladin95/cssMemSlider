@@ -1,0 +1,15 @@
+:root {
+  --four: 0.25rem;
+  --ten: 0.625rem;
+  --fifteen: 0,9375rem;
+  --thirty: 1.875rem;
+  --fourty: 2.5rem;
+  --fourtyEight: -3rem;
+  --ninetySeven: -6.0625rem;
+  --oneHundredAndFortyFive: -9.125rem;
+  --threeHundred: 18.75rem;
+  --threeHundredAndFour: 19rem;
+  --fourHundred: 25rem;
+  --fiveHundred: 31.25rem;
+  --sixHundred:  37.5rem;
+}

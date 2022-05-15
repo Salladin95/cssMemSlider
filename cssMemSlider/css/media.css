@@ -2,16 +2,43 @@
   .main {
     width: 80vw;
     height: 90vh;
-    padding: 0.625rem 2.5rem;
+    /*padding: var(--ten) var(--fourty);*/
   }
 
   .container {
-    width: 19rem;
-    height: 55vh;
+    width: var(--threeHundredAndFour);
+    height: 60vh;
   }
 
   .slide__img {
-    width: 18.75rem;
-    height: 25rem;
+    width: var(--threeHundred);
+    ;
+    height: var(--fourHundred);
+    ;
+  }
+
+  .wrapperTxtControlelrs {
+    flex-direction: column;
+  }
+
+  .controls {
+    order: -1;
+    align-self: center;
+  }
+
+  .sighn {
+    margin-top: var(--thirty);
+  }
+
+  #sighn2 {
+    transform: translateY(var(--fourtyEight))
+  }
+
+  #sighn3 {
+    transform: translateY(var(--ninetySeven))
+  }
+
+  #sighn4 {
+    transform: translateY(var(--oneHundredAndFortyFive))
   }
 }

@@ -6,7 +6,7 @@
   display: flex;
   width: 7.5rem;
   height: 4.375rem;
-  margin: -1.25rem auto;
+  margin: -1.25rem 0;
 }
 
 .controller {
@@ -15,7 +15,7 @@
 	width: 0.75rem;
 	margin: 1.563rem 0.313rem 0 0.313rem;
 	border-radius: 50%;
-	border: 0.125rem solid red;
+	border: var(--four) solid blue;
 
   display: flex;
   justify-content: center;
@@ -27,12 +27,20 @@
   width: 0.625rem;
   height: 0.625rem;
   border-radius: inherit;
+	transition: background ease-in-out .5s;
 }
 
-.controller:hover, 
-#slide1:checked ~ .controls label:nth-of-type(1) > div,
-#slide2:checked ~ .controls label:nth-of-type(2) > div,
-#slide3:checked ~ .controls label:nth-of-type(3) > div,
-#slide4:checked ~ .controls label:nth-of-type(4) > div {
+.controller:hover {
+	border: var(--four) solid white;
+}
+
+.controller:hover > div {
+  background: white;
+}
+
+#slide1:checked ~ .controls > label:nth-child(1) >div,
+#slide2:checked ~ .controls > label:nth-child(2) >div,
+#slide3:checked ~ .controls > label:nth-child(3) >div,
+#slide4:checked ~ .controls > label:nth-child(4) >div {
 	background: orange;
 }
