@@ -10,40 +10,37 @@
   <link rel="stylesheet" href="./css/normolize.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/slider.css">
   <link rel="stylesheet" href="./css/controls.css">
   <link rel="stylesheet" href="./css/sighnsAndControlls.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
-  <main class="main">
-    <div class="container">
+  <div class="container">
+    <div class="wrapper">
       <input type="radio" name="point" id="slide1" checked>
       <input type="radio" name="point" id="slide2">
       <input type="radio" name="point" id="slide3">
       <input type="radio" name="point" id="slide4">
+      <div class="slider_wrap">
+        <main class="slider">
+          <img class="slides slide1" src="./assets/images/1.jpg" alt="mem">
+          <img class="slides slide2" src="./assets/images/6.jpg" alt="mem">
+          <img class="slides slide3" src="./assets/images/3.jpg" alt="mem">
+          <img class="slides slide4" src="./assets/images/4.jpg" alt="mem">
+        </main>
+      </div>
 
-      <section class="slider">
-        <div class="slide1 slides">
-          <img class="slide__img" src="./assets/images/1.jpg" alt="mem">
-        </div>
-        <div class="slide2 slides">
-          <img class="slide__img" src="./assets/images/6.jpg" alt="mem">
-        </div>
-        <div class="slide3 slides">
-          <img class="slide__img" src="./assets/images/3.jpg" alt="mem">
-        </div>
-        <div class="slide4 slides">
-          <img class="slide__img" src="./assets/images/4.jpg" alt="mem">
-        </div>
-      </section>
       <div class="wrapperTxtControlelrs">
-          <p id="sighn1" class="sighn">Redbull</p>
-          <p id="sighn2" class="sighn">Being yourself</p>
-          <p id="sighn3" class="sighn">Tic Toc</p>
-          <p id="sighn4" class="sighn">Spancbob</p>
-  
+        <div class="sighns_wrap">
+          <div class="sighns">
+            <p id="sighn1" class="sighn">Redbull</p>
+            <p id="sighn2" class="sighn">Being yourself</p>
+            <p id="sighn3" class="sighn">Tic Toc</p>
+            <p id="sighn4" class="sighn">Spancbob</p>
+          </div>
+        </div>
         <div class="controls">
           <label class="controller" for="slide1">
             <div id="controller1" class="controller_active"></div>
@@ -60,7 +57,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </body>
 
 </html>

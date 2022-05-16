@@ -1,4 +1,4 @@
-.container > input {
+.wrapper > input {
   visibility: hidden;
 }
 
@@ -22,13 +22,13 @@
 }
 
 .controller:hover > .controller_active {
-  border: 0.1875rem solid green;
+  border: 0.1875rem solid pink;
 }
 
 #slide1:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(1) > div,
 #slide2:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(2) > div,
 #slide3:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(3) > div,
 #slide4:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(4) > div {
-  border: 0.1875rem solid green;
-  background-color: blue;
+  border: 0.1875rem solid pink;
+  background-color: rgb(19, 63, 56)
 }

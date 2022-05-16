@@ -13,5 +13,17 @@
   --fourHundred: 25rem;
   --fiveHundred: 31.25rem;
   --sixHundred:  37.5rem;
-  --ninHundred:  56.25rem;
+  --nineHundred:  56.25rem;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
