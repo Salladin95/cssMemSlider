@@ -1,0 +1,34 @@
+.wrapper > input {
+  visibility: hidden;
+}
+
+.controls {
+  display: flex;
+  overflow: hidden;
+}
+
+.controller {
+	cursor: pointer;
+  padding: 1rem;
+}
+
+.controller_active {
+  width: var(--fifteen);
+  height: var(--fifteen);
+  border-radius: 50%;
+  border: 0.1875rem solid white;
+  background-color: white;
+  transition: all .5s;
+}
+
+.controller:hover > .controller_active {
+  border: 0.1875rem solid pink;
+}
+
+#slide1:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(1) > div,
+#slide2:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(2) > div,
+#slide3:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(3) > div,
+#slide4:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(4) > div {
+  border: 0.1875rem solid pink;
+  background-color: rgb(19, 63, 56)
+}
