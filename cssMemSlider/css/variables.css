@@ -1,7 +1,8 @@
 :root {
   --four: 0.25rem;
   --ten: 0.625rem;
-  --fifteen: 0,9375rem;
+  --fifteen: 0.9375rem;
+  --twenty: 1.25rem;
   --thirty: 1.875rem;
   --fourty: 2.5rem;
   --fourtyEight: -3rem;
@@ -12,4 +13,5 @@
   --fourHundred: 25rem;
   --fiveHundred: 31.25rem;
   --sixHundred:  37.5rem;
+  --ninHundred:  56.25rem;
 }

@@ -10,6 +10,9 @@
   min-width: 100%;
   opacity: 0;
 	transition: 2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide__img {
@@ -18,19 +21,19 @@
 }
 
 .slide1 {
-  transform: translate(150%);
+  transform: translateX(150%);
 }
 
 .slide2 {
-  transform: translate(50%);
+  transform: translateX(50%);
 }
 
 .slide3 {
-  transform: translate(-50%);
+  transform: translateX(-50%);
 }
 
 .slide4 {
-  transform: translate(-150%);
+  transform: translateX(-150%);
 }
 
 #slide1:checked ~ .slider > .slide1,

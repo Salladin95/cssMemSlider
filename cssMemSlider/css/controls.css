@@ -4,43 +4,31 @@
 
 .controls {
   display: flex;
-  width: 7.5rem;
-  height: 4.375rem;
-  margin: -1.25rem 0;
+  overflow: hidden;
 }
 
 .controller {
 	cursor: pointer;
-	height: 0.75rem;
-	width: 0.75rem;
-	margin: 1.563rem 0.313rem 0 0.313rem;
-	border-radius: 50%;
-	border: var(--four) solid blue;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-	transition: background ease-in-out .5s;
+  padding: 1rem;
 }
 
 .controller_active {
-  width: 0.625rem;
-  height: 0.625rem;
-  border-radius: inherit;
-	transition: background ease-in-out .5s;
+  width: var(--fifteen);
+  height: var(--fifteen);
+  border-radius: 50%;
+  border: 0.1875rem solid white;
+  background-color: white;
+  transition: all .5s;
 }
 
-.controller:hover {
-	border: var(--four) solid white;
+.controller:hover > .controller_active {
+  border: 0.1875rem solid green;
 }
 
-.controller:hover > div {
-  background: white;
-}
-
-#slide1:checked ~ .controls > label:nth-child(1) >div,
-#slide2:checked ~ .controls > label:nth-child(2) >div,
-#slide3:checked ~ .controls > label:nth-child(3) >div,
-#slide4:checked ~ .controls > label:nth-child(4) >div {
-	background: orange;
+#slide1:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(1) > div,
+#slide2:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(2) > div,
+#slide3:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(3) > div,
+#slide4:checked ~ .wrapperTxtControlelrs > .controls > label:nth-child(4) > div {
+  border: 0.1875rem solid green;
+  background-color: blue;
 }

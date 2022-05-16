@@ -7,20 +7,21 @@
   display: flex;
 }
 
+
 #sighn1 {
-  transform: translate(0%);
+  /*transform: translate(0%);*/
 }
 
 #sighn2 {
-  transform: translate(-222%);
+  transform: translateX(-100%);
 }
 
 #sighn3 {
-  transform: translate(-446%);
+  /*transform: translate(-970%);*/
 }
 
 #sighn4 {
-  transform: translate(-670%);
+  /*transform: translate(-1070%);*/
 }
 
 #slide1:not(:checked) ~ .wrapperTxtControlelrs > #sighn1,
@@ -30,7 +31,6 @@
   animation: sighn .5s;
   opacity: 0;
 }
-
 
 @keyframes sighn {
   0% {

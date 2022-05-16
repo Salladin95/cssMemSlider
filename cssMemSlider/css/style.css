@@ -11,8 +11,7 @@
 }
 
 .container {
-  max-width: var(--fiveHundred);
-  height: 60vh;
+  max-width: var(--nineHundred);
   width: 100%;
   /*padding: var(--ten) var(--fourty);*/
 
@@ -23,5 +22,5 @@
 
 .sighn {
   color: antiquewhite;
-  margin-top: var(--ten);
+  margin-top: var(--twenty);
 }
